@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("/crowd-live-concert.gif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../crowd-live-concert.gif");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -53,7 +53,7 @@ color: white;
     /* background:linear-gradient(to right, blue,red,yellow, green, darkblue, orange); */
     box-shadow: 0px 10px 10px 10px black;
     position: relative;
-    background-image: url(/11297194_4152.jpg);
+    background-image: url(../11297194_4152.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
