@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("/crowd-live-concert.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.category label{
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+.category select{
+    background-color:transparent;
+    color: white;
+    padding:5px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.category select option{
+background-color: black;  
+color: white;      
+}
+.tickets-space{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.tickets-space .stage{
+    width: 800px;
+    border-radius: 20px;
+    text-align: center;
+    height: 200px;
+    /* background:linear-gradient(to right, blue,red,yellow, green, darkblue, orange); */
+    box-shadow: 0px 10px 10px 10px black;
+    position: relative;
+    background-image: url(/11297194_4152.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.tickets-space .stage span{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+.tickets-space :nth-child(2){
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    height:50px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    /* background-color:paleturquoise; */
+    box-shadow: 2px 2px 10px black;
+    transition:0.2s ease-in; 
+}
+.tickets-space :nth-child(3){
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    height:50px;
+    width: 600px;
+    border-radius: 20px;
+    text-align: center;
+    /* background-color:gold; */
+    box-shadow: 2px 2px 10px black;
+    transition:0.2s ease-in; 
+
+}
+.tickets-space :nth-child(4){
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    height:50px;
+    width: 800px;
+    border-radius: 20px;
+    text-align: center;
+    /* background-color:silver; */
+    box-shadow: 2px 2px 10px black;
+    transition:0.2s ease-in; 
+
+}
+.tickets-space :nth-child(5){
+    margin-top: 30px;
+    width: inherit;
+    /* border: 1px solid black; */
+    height:50px;
+    width: 1000px;
+    border-radius: 20px;
+    text-align: center;
+    /* background-color:gray; */
+    box-shadow: 2px 2px 10px black;
+    transition:0.2s ease-in; 
+}
+/* select option[value="PLATINUM"]{
+    color: red;
+} */
