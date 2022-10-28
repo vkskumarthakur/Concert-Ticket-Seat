@@ -12,7 +12,7 @@ var remove = document.querySelector(".remove");
 
 function platinumFunction() {
     var seat = document.querySelector("#select-seat").value;
-    var seatText = "You have selected" + "<br><br>"+seat+" "+"Tickets";
+    var seatText = "You are here at" + "<br><br>"+seat+" "+"Seat";
     if (seat.toLowerCase() == "platinum") {
         platinumSeats.style.backgroundColor = "#E5E4E2";
         platinumSeats.innerHTML = seatText;
