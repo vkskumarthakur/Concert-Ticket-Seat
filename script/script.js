@@ -10,7 +10,7 @@ var result = document.querySelector(".result");
 var add = document.querySelector(".add");
 var remove = document.querySelector(".remove");
 
-function platinumFunction() {
+function chooseSeat() {
     var seat = document.querySelector("#select-seat").value;
     var seatText = "You are here at" + "<br><br>"+seat+" "+"Seat";
     if (seat.toLowerCase() == "platinum") {
